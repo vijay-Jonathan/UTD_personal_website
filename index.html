@@ -419,7 +419,9 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Contact</h2>
                     <div class="container">
-                        <form id="contactForm">
+                        <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+                            
+                            <input type="hidden" name="access_key" value="80d1c69d-4083-4aa0-874f-7276950f17da">
                             <div class="row">
                                 <div class="form-group col-4">
                                     <input type="text" class="form-control mb-3" id="fname" placeholder="First Name" name="fname" required>
@@ -436,7 +438,7 @@
                                 <textarea class="form-control mb-3" id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
                             </div>
                     
-                            <button type="button" onclick="submitForm()" class="btn btn-primary mb-3" style="color: white">Submit</button>
+                            <button type="submit" class="btn btn-primary mb-3" style="color: white">Submit</button>
                         </form>
                     </div>
                     
