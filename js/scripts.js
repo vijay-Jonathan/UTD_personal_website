@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Setup and start animation!
     var typed = new Typed('#element', {
-        strings: ['Developer!', 'Analyst!'],
+        strings: ['Software Dev !','DevOps Engineer!','Developer!', 'Analyst!'],
         typeSpeed: 50,
         backSpeed: 50,
         loop: true
@@ -59,15 +59,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-// // Setup and start animation! 
-// document.addEventListener('DOMContentLoaded', function() {
-//     var typed = new Typed('#element', {
-//         strings: ['Developer!', 'Analyst!'],
-//         typeSpeed: 50,
-//         backSpeed: 50,
-//         loop: true
-//     });
-// });
 
 
 function submitForm() {
