@@ -1,7 +1,7 @@
 #!/bin/bash
 
 while true; do
-  git rebase
+  git pull --rebase
   chmod 644 index.html
   # Do something
   sleep 5;
