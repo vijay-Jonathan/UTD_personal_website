@@ -61,24 +61,3 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 
-function submitForm() {
-    let formDataArray = [];
-    const form = document.getElementById("contactForm");
-    const formData = new FormData(form);
-    
-    let lenOfArray = formDataArray.length;
-    // Convert formData to JSON
-    const jsonData = {};
-    for (const [key, value] of formData.entries()) {
-        jsonData[key] = value;
-    }
-
-    // Add the current form data to the array
-    formDataArray.push(jsonData);
-
-    // Clear the form after submission
-    form.reset();
-
-    // Log the array of form data
-    console.log("Form Data Array:", formDataArray);
-}
